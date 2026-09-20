@@ -1,0 +1,128 @@
+body {
+    background-color: lightblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.photoCV {
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.présentation{
+    background-color: white;
+    padding: 20px ;
+    margin: 20px ;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+.prez{
+    display:flex;
+    gap: 50px;
+}
+.boite{
+    max-width: 1000px;
+    margin:auto;
+}
+.devweb{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.baseinf{
+    background-color: white;
+    padding: 20px;
+    margin:20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.cptactuel{
+    display: flex;
+    gap: 20px;
+}
+.newlang{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.newcpt{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.futur{
+    display: flex;
+    gap: 20px;
+}
+.devweb,
+.baseinf {
+    flex: 1;
+}
+.newlang,
+.newcpt{
+    flex: 1;
+}
+h1{
+    text-align: left;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+h2{
+    text-align: left;
+    border-bottom: 2px solid black;
+    padding: 8px;
+}
+
+.photopc{
+    float: right;
+    width: 150px;
+    height: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+
+
+}
+.pdfa{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+.pc{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    min-height: 250px;
+}
+.comp{
+    display:flex;
+    gap: 275px;
+}
+.conta{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+}
+.lien{
+    color: blue;
+
+}
+.lien:hover{
+    color: purple;
+    transition: 0.3s;
+}
